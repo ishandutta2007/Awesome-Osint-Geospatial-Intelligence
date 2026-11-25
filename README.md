@@ -1,214 +1,285 @@
-# Awesome-Osint-Geospatial-Intelligence
-# Awesome-Osint-Geospatial-Intelligence
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome OSINT and Geospatial Intelligence Banner" width="100%" />
+</p>
 
-# Awesome OSINT & Geospatial Intelligence
-
-> A curated list of top OSINT and Geospatial Intelligence platforms — both SaaS/Hosted commercial solutions and open-source alternatives for geolocation, satellite analysis, maritime tracking, and multi-source intelligence fusion.
-> 🌟 Star this repo if you find it useful! 🌟
-
----
-
-## 📋 Table of Contents
-
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Recorded Future](#recorded-future)
-  - [Dataminr](#dataminr)
-  - [Janes](#janes)
-  - [Maxar Technologies](#maxar-technologies)
-  - [Planet Insights](#planet-insights)
-  - [BlackSky](#blacksky)
-  - [Descartes Labs](#descartes-labs)
-  - [Spire Global](#spire-global)
-  - [Orbital Insight](#orbital-insight)
-  - [HawkEye 360](#hawkeye-360)
-- [Open-Source Software](#-open-source-software)
-  - [Azimut](#azimut)
-  - [TerraScout AI](#terrascout-ai)
-  - [Osiris](#osiris)
-  - [Neptune AIS](#neptune-ais)
-  - [OpenOSINT](#openosint)
-  - [Unbihexium](#unbihexium)
-  - [SIPT](#sipt)
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome" /></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Osint-Geospatial-Intelligence/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Osint-Geospatial-Intelligence?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Osint-Geospatial-Intelligence/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Osint-Geospatial-Intelligence?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Osint-Geospatial-Intelligence/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg?style=flat-square" alt="License: CC0-1.0" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+# 🛰️ Awesome OSINT & Geospatial Intelligence (GEOINT) 🌍
 
-Commercial, cloud-hosted OSINT and Geospatial Intelligence platforms. These are not open-source but are included as reference points for feature comparison.
+> **A definitive, SEO-optimized directory of commercial SaaS platforms and open-source intelligence tools for geospatial analysis, Earth observation (EO) satellites, multi-source geolocation, maritime vessel tracking, radio-frequency (RF) mapping, and visual investigation reconnaissance.**
 
-### Recorded Future
-**Type:** Real-time threat intelligence with geospatial context
-Recorded Future provides intelligence across open, technical, deep, and dark web sources, with geospatial context for threat actors and campaigns. It is positioned for security teams wanting intelligence-driven prioritization with location awareness.
-
-### Dataminr
-**Type:** Real-time event detection from public data
-Dataminr detects breaking events from public data sources (social media, news, sensors) with geolocation and impact assessment. It is positioned for organizations needing early warning on incidents affecting operations or personnel.
-
-### Janes
-**Type:** Defense and security intelligence
-Janes provides open-source defense and security intelligence, including order of battle data, equipment profiles, and geospatial analysis. It is positioned for government and defense organizations needing structured, verified intelligence.
-
-### Maxar Technologies
-**Type:** High-resolution satellite imagery and analytics
-Maxar provides high-resolution satellite imagery, 3D geospatial data, and analytics for defense, intelligence, and commercial applications. It is the long-standing commercial standard for satellite imagery.
-
-### Planet Insights
-**Type:** Daily satellite imagery and analytics
-Planet operates a large fleet of satellites providing daily imagery of the Earth, with analytics for change detection, agriculture, and environmental monitoring. It is positioned for organizations needing frequent revisit rates.
-
-### BlackSky
-**Type:** Real-time satellite imagery and analytics
-BlackSky provides high-revisit satellite imagery with AI-powered analytics for defense, intelligence, and critical infrastructure monitoring. It is positioned for time-sensitive geospatial intelligence.
-
-### Descartes Labs
-**Type:** Geospatial analytics platform
-Descartes Labs provides a cloud platform for analyzing satellite imagery at scale, with tools for environmental monitoring, agriculture, and supply chain analysis. It is positioned for data scientists working with geospatial data.
-
-### Spire Global
-**Type:** Satellite-powered maritime and weather data
-Spire operates a constellation of nanosatellites providing maritime AIS data, weather data, and aviation tracking. It is positioned for organizations needing global maritime domain awareness.
-
-### Orbital Insight
-**Type:** Geospatial analytics with AI
-Orbital Insight analyzes satellite imagery and geolocation data to provide insights on economic activity, infrastructure, and supply chains. It is positioned for organizations wanting macro-level geospatial intelligence.
-
-### HawkEye 360
-**Type:** Radio frequency geolocation intelligence
-HawkEye 360 operates a satellite constellation that geolocates radio frequency signals (maritime radar, VHF, etc.) for maritime domain awareness and defense intelligence. It is positioned for organizations needing RF-based geospatial intelligence.
+Whether you are an OSINT investigator, defense analyst, GIS engineer, or threat researcher, this curated index benchmarks the best commercial enterprise solutions alongside battle-tested, self-hosted open-source software.
 
 ---
 
-## 🟩 Open-Source Software
-
-Self-hosted, community-driven OSINT and Geospatial Intelligence tools. The open-source ecosystem spans **geolocation workspaces**, **multi-source intelligence dashboards**, **maritime tracking platforms**, **AI-powered reconnaissance frameworks**, and **satellite image processing libraries**.
-
-### Azimut
-**Stack:** Python / Svelte / SQLite | **License:** Open Source (PyPI)
-Azimut is a local-first **GeoOSINT workspace** for geolocation investigations, keeping all evidence together in a single case folder on your machine . Key capabilities include:
-- **Horizon matching**: Stand at any point on the map and see the 3D terrain and skyline visible from that spot up to ~150 km, then overlay the photo being investigated to match peaks and horizon by eye or with the Fit tool 
-- **Find (Beta)**: Draw the skyline on a photo, mark an area up to **10,000 km²**, and Azimut ranks places where the hills and ridges best match that skyline 
-- **Sun and moon conditions**: Calculate local sun and moon conditions offline and review their daily paths on the map 
-- **Proof composition**: Export selected notes as server-rendered PDFs with local images and diagrams, and compose proofs as collages with satellite view and photo 
-- **Case management**: Each investigation has its own case, with media placed in that case to prevent confusion 
-- **Cross-platform**: Runs on Linux, Windows, and macOS, with self-contained binaries available (no Python required) 
-
-**Trade-off:** Find is still in Beta and limited to 10,000 km² areas; results require human verification .  
-**Best for:** OSINT analysts and geolocation investigators wanting a local, evidence-centric workspace with horizon matching and proof composition capabilities.
-
-### TerraScout AI
-**Stack:** Python / Streamlit / SAM2 | **License:** Open Source (GitHub)
-TerraScout AI is an open-source **geospatial intelligence platform** with **313+ modules**, AI satellite analysis, and real-time monitoring . Key capabilities include:
-- **AI satellite image analysis**: Powered by Segment Anything Model (SAM/SAM2), detect and segment objects using text prompts (e.g., "tree", "building", "solar panel"), with batch processing and GeoJSON/CSV/PNG export 
-- **Remote structure explorer**: Multi-source search across OpenStreetMap, Google Open Buildings (1.8B AI-detected buildings), Microsoft Building Footprints (1B+ ML-detected buildings), and AI live detection 
-- **Satellite imagery viewer**: NASA GIBS (MODIS, VIIRS, NDVI), EOX Sentinel-2 Cloudless (2018-2024 at 10m resolution), tile stitching, and date comparison 
-- **Earth monitoring**: Weather, air quality, active wildfires (NASA FIRMS), natural disasters (GDACS), volcanoes, space weather, ISS tracking, near-Earth asteroids 
-- **Marine & ocean**: Vessel tracking, tides (NOAA CO-OPS), ocean data 
-- **Fusion Console**: 34 analytical sections, 35 algorithms, 40+ data sources in one view 
-
-**Trade-off:** Requires 8 GB RAM minimum (16 GB recommended for AI features), and the project appears to be a single-developer effort with a very recent creation date.  
-**Best for:** Analysts wanting a comprehensive, module-rich OSINT dashboard with AI-powered satellite analysis and multi-source data fusion.
-
-### Osiris
-**Stack:** Next.js / TypeScript / MapLibre GL / WebGL | **License:** MIT 
-Osiris is an open-source **OSINT platform** that aggregates publicly available geospatial information into a single interactive operational dashboard, running locally on a regular laptop without dedicated server infrastructure . Key capabilities include:
-- **15+ switchable data layers**: Aircraft and maritime data, satellite wildfire data, infrastructure data, submarine internet cables, seismology, air quality, conflict data, and CCTV 
-- **Network reconnaissance tools**: TCP port scanning, DNS records retrieval, WHOIS query, SSL/TLS inspection, service discovery, and vulnerability scanning 
-- **GPU-rendered globe**: WebGL-based visualization of ~19,000 objects, with 3D terrain and smooth camera controls 
-- **RECON → FINGERPRINT**: Live public-profile search across 462 platforms for username, email, or phone, with soft-404 detection and CSV/JSON export 
-- **Live Alerts**: Pinned to named locations with playable footage in place 
-- **Local processing**: Most computation on the user's machine, minimizing server costs 
-
-**Trade-off:** The developers note dual-use capabilities—it can be used for legitimate investigations and emergency response, but also for reconnaissance or malicious purposes .  
-**Best for:** Investigators and analysts wanting a comprehensive, self-hosted OSINT dashboard with network recon tools and multi-source geospatial layers.
-
-### Neptune AIS
-**Stack:** Python / Polars / DuckDB | **License:** Open Source (PyPI)
-Neptune AIS is an open-source **maritime intelligence platform** for real-time vessel tracking and AIS data analysis . Key capabilities include:
-- **Six open AIS data sources**: NOAA (US waters), Danish Maritime Authority (European waters), Global Fishing Watch (global satellite AIS), Digitraffic Finland, AISHub, and AISStream (real-time WebSocket) 
-- **Multi-source fusion**: Combine sources with automatic deduplication ("best", "union", or "prefer" merge strategies) 
-- **Event detection**: Port calls, EEZ crossings, encounters, and loitering with confidence scores and full provenance 
-- **Real-time streaming**: WebSocket-based ingestion with Parquet sinks and canonical storage promotion 
-- **Query interface**: Polars LazyFrame or SQL via DuckDB for large-scale analysis 
-- **Plugin system**: Add custom AIS data adapters via Python entry points 
-
-**Trade-off:** Requires API keys for some sources (Global Fishing Watch, AISHub, AISStream), and the platform is focused specifically on maritime AIS data rather than broader geospatial intelligence.  
-**Best for:** Maritime analysts and OSINT investigators needing programmatic access to AIS vessel tracking data with multi-source fusion and event detection.
-
-### OpenOSINT
-**Stack:** Python / MCP | **License:** Open Source (PyPI)
-OpenOSINT is an open-source **OSINT agent** for investigators and security researchers, with **21 public-source tools** behind a natural-language interface and an MCP server . Key capabilities include:
-- **Passive by default**: Tools query third-party sources or compute locally; anything that touches the target is off until explicitly opted in (`--allow-active`) 
-- **DNS/RDAP/WHOIS lookups**: Records, SPF, DMARC, registrar data, name servers 
-- **IP intelligence**: Hostname, ASN, city, geolocation, ISP, proxy/VPN/Tor flags 
-- **Geolocated news**: GDELT geolocated news mentions 
-- **Breach and reputation**: HaveIBeenPwned, VirusTotal, AbuseIPDB, Shodan, Censys 
-- **Web UI with 3D globe**: Agent investigation lands as a point on a globe; entity graph with statement-level provenance 
-- **MCP server**: Use from Claude Code, Cursor, or any MCP client 
-
-**Trade-off:** Only passive tools are on by default, and some tools require API keys (Shodan, Censys, VirusTotal, etc.). The tool is focused on entity/network OSINT rather than satellite imagery or terrain analysis.  
-**Best for:** Investigators wanting a natural-language OSINT agent with a broad set of passive reconnaissance tools and MCP integration.
-
-### Unbihexium
-**Stack:** Python / ONNX / PyTorch | **License:** Open Source (PyPI)
-Unbihexium is a Python package for **geospatial machine learning** and satellite image processing, providing input/output, preprocessing, indices, SAR, terrain, geostatistics, analysis, metrics, visualisation, and a model zoo . Key capabilities include:
-- **Model zoo**: A catalogue of models for satellite imagery analysis 
-- **REST service**: FastAPI-based serving for model inference 
-- **Container image**: Available on GitHub Container Registry (`ghcr.io/unbihexium-oss/unbihexium`) 
-- **No system GDAL required**: Binary wheels bundle GDAL, PROJ, GEOS, and native libraries 
-- **ONNX inference**: Run exported models without PyTorch 
-
-**Important:** The project does not ship trained weights, labelled training data, or imagery, and makes no claim of fitness for operational or safety-critical purposes .  
-**Best for:** Developers and researchers building custom geospatial ML pipelines who want a well-structured Python library with model zoo and serving capabilities, accepting that they must supply their own trained weights and data.
-
-### SIPT
-**Stack:** Python / RasterIO | **License:** Open Source (Zenodo)
-SIPT (Satellite Image Processing Tools) is a Python package that streamlines retrieval and processing of satellite imagery, built on RasterIO without requiring external GDAL installation . Key capabilities include:
-- **Mass processing**: Optimized for CPU and GPU multiprocessing of satellite data 
-- **Time-series creation**: Simplifies building time-series datasets for environmental monitoring, urban planning, agriculture, and climate analysis 
-- **Lightweight setup**: No external GDAL dependency 
-
-**Best for:** Researchers and analysts needing a lightweight Python toolkit for satellite image retrieval and time-series processing, accepting a narrower scope than full OSINT platforms.
+## 📑 Table of Contents
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 Commercial SaaS & Hosted Platforms](#-commercial-saas--hosted-platforms)
+- [💻 Open-Source GEOINT & OSINT Software](#-open-source-geoint--osint-software)
+- [📊 Feature Comparison Matrix](#-feature-comparison-matrix)
+- [🔍 SEO Search Keywords & Query Taxonomy](#-seo-search-keywords--query-taxonomy)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
-## 📊 Comparison at a Glance
+## 📈 Sector Overview & Market Dynamics
 
-| Software | License | Stack | Geolocation | Satellite/AI | Maritime | Self-Hosted | Best For |
-|----------|---------|-------|-------------|--------------|----------|-------------|----------|
-| **Recorded Future** | Proprietary | Cloud | ✅ (Context) | ❌ | ❌ | ❌ | Threat intel + geospatial |
-| **Maxar** | Proprietary | Cloud | ✅ | ✅ High-res | ❌ | ❌ | Commercial satellite imagery |
-| **Planet** | Proprietary | Cloud | ✅ | ✅ Daily | ❌ | ❌ | Daily revisit imagery |
-| **Spire** | Proprietary | Cloud | ✅ | ❌ | ✅ AIS | ❌ | Global maritime AIS |
-| **HawkEye 360** | Proprietary | Cloud | ✅ | ❌ | ✅ RF | ❌ | RF geolocation |
-| **Azimut** | Open Source | Python/Svelte | ✅ Horizon | ❌ | ❌ | ✅ | Local geolocation workspace |
-| **TerraScout AI** | Open Source | Python/SAM2 | ✅ | ✅ AI segmentation | ✅ Vessel tracking | ✅ | 313+ module OSINT dashboard |
-| **Osiris** | MIT | Next.js/WebGL | ✅ | ✅ Satellite layers | ✅ Maritime layer | ✅ | GPU globe + network recon |
-| **Neptune AIS** | Open Source | Python/Polars | ❌ | ❌ | ✅ Multi-source AIS | ✅ | Programmatic AIS analysis |
-| **OpenOSINT** | Open Source | Python/MCP | ✅ (GDELT) | ❌ | ❌ | ✅ | Natural-language OSINT agent |
-| **Unbihexium** | Open Source | Python/ONNX | ❌ | ✅ Model zoo | ❌ | ✅ | Geospatial ML library |
-| **SIPT** | Open Source | Python/RasterIO | ❌ | ✅ Processing | ❌ | ✅ | Satellite time-series |
+The global **Geospatial Intelligence (GEOINT)** and Earth observation analytics market is valued between **$28 billion and $35 billion**, projected to exceed **$90 billion** at a compound annual growth rate (**CAGR of ~12.5% to 14.8%**) fueled by commercial microsatellite mega-constellations, AI-accelerated computer vision (GeoAI), and escalating geopolitical defense requirements.
+
+The sector demonstrates a pronounced **dual market structure**:
+- **Upstream (Capital & Constellation Layer) — Highly Concentrated:** Capital-intensive satellite constellations (optical, SAR, RF) and classified government-level prime contracts are concentrated among a few dominant defense primes and space giants (*Maxar/Vantor, Planet Labs, Airbus, BlackSky*), forming natural oligopolies due to massive orbital launch barriers and regulatory hurdles.
+- **Downstream (Software, AI Analytics & Services Layer) — Moderately to Highly Fragmented:** End-user geospatial analytics, event detection, automated vector extraction, and niche OSINT software remain highly fragmented across hundreds of specialized SaaS providers, open-source toolkits, and computer vision startups competing to transform raw multi-spectral pixels into actionable decisions.
+
+---
+
+## 🏢 Commercial SaaS & Hosted Platforms
+
+Below is the structured breakdown of top commercial SaaS solutions for OSINT and Geospatial Intelligence, benchmarked by organizational scale (**Valuation / Annual Revenue**) and sorted in descending order:
+
+| 🏢 Platform | 🏷️ Primary Domain / Capability | 💰 Specific Starting Tier Pricing | 🎁 Specific Free Tier / Trial Limit | 📊 Company Size (Valuation / Revenue) |
+|---|---|---|---|---|
+| **Maxar Technologies** | High-resolution commercial satellite imagery (30cm–50cm), 3D digital surface models, and orbital tasking | **$20.00 – $40.00 / km²** (Archive baseline, min. 25 km² order block ~$500) | **No open free tier**; Free high-res access exclusively via **Maxar Open Data Program** for validated humanitarian crises | **$6.4B Valuation** ($1.6B+ annual revenue; acquired by Advent Intl / Vantor) |
+| **Dataminr** | Real-time multi-modal AI event detection & breaking incident alerts from 500k+ public data feeds | **$15,000 / year** (Starting Pulse/First Alert entry tier) | **No self-service free tier**; Customized demo & vetted proof-of-concept on request | **$4.1B Valuation** (Last private round Series F; scaled enterprise ARR) |
+| **Recorded Future** | Threat intelligence cloud with automated geospatial infrastructure & threat actor mapping | **$40,000 / year** (Core Tier, single intelligence module with capped API) | **No permanent free tier**; 14-day vetted enterprise evaluation POC upon approval | **$2.65B Valuation** (~$300M ARR; acquired by Mastercard in 2024) |
+| **HawkEye 360** | Commercial RF (Radio Frequency) signal geolocation & satellite spectrum mapping | **$50,000 / year** (Entry-level tactical RF data streaming feed) | **No free tier**; Direct defense/government pilot evaluations arranged via mission sales | **$2.42B Valuation** ($117.7M FY revenue; public NYSE listing) |
+| **Planet Labs** | Daily planetary Earth monitoring with PlanetScope (~3m) and SkySat (50cm) tasking | **$400 / month** (Starting Insights Flex entry tier via monitoring credits) | **30-Day Free Trial** (Includes **3,000 monitoring credits** for Sentinel/Landsat streaming & spectral indices) | **$850M+ Market Cap** ($378M TTM revenue; NYSE: PL) |
+| **Janes** | Defense equipment OSINT, military order of battle, weapons specifications & conflict geolocation | **$30,000 / year** (Single equipment & platform intelligence module) | **No free trial**; Restricted institutional/governmental digital walkthrough upon vetting | **$600M+ Est. Valuation** (~$100M+ ARR; Montagu private equity portfolio) |
+| **Spire Global** | Satellite-based maritime AIS tracking, radio occultation weather data & aircraft ADS-B | **$500 / month** (Standard developer Maritime GraphQL API tier) | **No standard free tier**; Custom sample API tokens (100 test queries) on partner sign-up | **$320M Market Cap** (~$72M annual revenue; NYSE: SPIR) |
+| **BlackSky** | High-cadence real-time imagery tasking (~1-hour revisit) & Spectra AI automated change detection | **$120 / scene** (Gen-2 archive scenes) / **$250+ / scene** (Standard tasking) | **No public free tier**; Pay-per-scene on-demand accessible via reseller APIs | **$210M Market Cap** (~$105M annual revenue; NYSE: BKSY) |
+| **Descartes Labs** | Cloud geospatial platform for petabyte-scale satellite raster analytics & commodity modeling | **$25,000 / year** (Enterprise Accelerator foundation tier on AWS Marketplace) | **No free tier**; Proof-of-concept environment scoped during enterprise evaluation | **$220M Peak Valuation** (~$12M ARR; acquired by EarthDaily Analytics) |
+| **Orbital Insight** | Multi-source computer vision analytics (satellite, SAR, mobile location data) | **$30,000 / year** (Orbital Insight GO targeted supply chain / facility tier) | **No free tier**; Customized enterprise pilot sandbox available via sales | **$90M Acquisition Valuation** (~$44M revenue; acquired by Privateer) |
+
+---
+
+## 💻 Open-Source GEOINT & OSINT Software
+
+Open-source tools offer transparency, offline operability, self-hosted deployment, and deep customizability without cloud lock-in. 
+
+The software repos below are **ranked in descending order by GitHub stargazers**, each equipped with its official white social badge linking directly to its stargazers page:
+
+---
+
+### 1. [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) [![GitHub stars](https://img.shields.io/github/stars/smicallef/spiderfoot?style=social&color=white)](https://github.com/smicallef/spiderfoot/stargazers)
+* **Stack:** Python / Flask / SQLite | **License:** MIT
+* **Capabilities:** 
+  - Automates OSINT for threat intelligence, digital reconnaissance, and infrastructure mapping.
+  - Integrates 200+ data modules supporting IP geolocation, domain topology, ASN extraction, and spatial leaks.
+  - Provides modular target enumeration with visual threat graph dashboards and automated vulnerability correlation.
+* **Best For:** Penetration testers, cyber threat researchers, and investigators needing full-scope passive reconnaissance and infrastructure discovery.
+
+---
+
+### 2. [qgis/QGIS](https://github.com/qgis/QGIS) [![GitHub stars](https://img.shields.io/github/stars/qgis/QGIS?style=social&color=white)](https://github.com/qgis/QGIS/stargazers)
+* **Stack:** C++ / Python / Qt | **License:** GNU GPLv2
+* **Capabilities:** 
+  - The gold-standard open-source Geographic Information System (GIS) for professional spatial data management.
+  - Complete raster and vector data manipulation, georeferencing satellite and drone footage, and geospatial modeling.
+  - Extensive ecosystem of GEOINT and OSINT plugins (including Sentinel Hub, Google Earth Engine, OpenTopography, and Geocoding APIs).
+* **Best For:** Full-scale geospatial analysis, imagery georeferencing, custom map cartography, and spatial defense intelligence.
+
+---
+
+### 3. [simplifaisoul/osiris](https://github.com/simplifaisoul/osiris) [![GitHub stars](https://img.shields.io/github/stars/simplifaisoul/osiris?style=social&color=white)](https://github.com/simplifaisoul/osiris/stargazers)
+* **Stack:** Next.js / TypeScript / MapLibre GL / WebGL | **License:** MIT
+* **Capabilities:** 
+  - Self-hosted, real-time situational awareness dashboard rendering ~19,000+ spatial entities smoothly at 60 FPS using GPU WebGL.
+  - 40+ keyless open data feeds: OpenSky flight tracking, NASA FIRMS active fire hotspots, USGS earthquakes, and 17,000+ live public highway CCTVs.
+  - Built-in RECON engine featuring network port scanning, WHOIS lookups, DNS inspection, and username fingerprinting across 460+ web platforms.
+* **Best For:** Tactical command centers, emergency responders, and OSINT analysts wanting a unified 3D globe visualization tool.
+
+---
+
+### 4. [sacridini/Awesome-Geospatial](https://github.com/sacridini/Awesome-Geospatial) [![GitHub stars](https://img.shields.io/github/stars/sacridini/Awesome-Geospatial?style=social&color=white)](https://github.com/sacridini/Awesome-Geospatial/stargazers)
+* **Stack:** Markdown / Community Catalog | **License:** CC0-1.0
+* **Capabilities:** 
+  - The definitive global repository indexing open-source geospatial databases, LiDAR toolkits, radar imagery, and GIS utilities.
+  - Covers spatial database drivers (PostGIS, SpatiaLite), raster analysis tools, and web-mapping frameworks.
+* **Best For:** Engineers and analysts discovering tools, libraries, and datasets across the spatial spectrum.
+
+---
+
+### 5. [gee-community/geemap](https://github.com/gee-community/geemap) [![GitHub stars](https://img.shields.io/github/stars/gee-community/geemap?style=social&color=white)](https://github.com/gee-community/geemap/stargazers)
+* **Stack:** Python / Jupyter / ipyleaflet | **License:** MIT
+* **Capabilities:** 
+  - Python package for interactive planetary mapping with Google Earth Engine (GEE).
+  - Analyze multi-decadal optical, thermal, and radar (Sentinel-1 SAR) satellite imagery with minimal coding.
+  - Supports time-series animation generation, spectral index calculation (NDVI, NDWI), and automated change detection.
+* **Best For:** Remote sensing scientists and environmental OSINT researchers conducting planetary-scale time-series analysis.
+
+---
+
+### 6. [OpenOSINT/OpenOSINT](https://github.com/OpenOSINT/OpenOSINT) [![GitHub stars](https://img.shields.io/github/stars/OpenOSINT/OpenOSINT?style=social&color=white)](https://github.com/OpenOSINT/OpenOSINT/stargazers)
+* **Stack:** Python / MCP / CLI | **License:** Apache-2.0
+* **Capabilities:** 
+  - Conversational AI agent for digital investigations, featuring 21 public-source passive reconnaissance tools.
+  - Model Context Protocol (MCP) server compatibility for integration with Claude Code, Cursor, and custom LLMs.
+  - Geolocation tools, IP infrastructure profiling, GDELT global news mapping, and breach queries with strict passive-by-default execution.
+* **Best For:** Security teams and automated AI workflows requiring conversational OSINT and spatial data enrichment.
+
+---
+
+### 7. [ilektrojohn/creepy](https://github.com/ilektrojohn/creepy) [![GitHub stars](https://img.shields.io/github/stars/ilektrojohn/creepy?style=social&color=white)](https://github.com/ilektrojohn/creepy/stargazers)
+* **Stack:** Python / PyQt | **License:** GPLv3
+* **Capabilities:** 
+  - Dedicated geolocation OSINT tool collecting geolocation data from social networking platforms and photo-hosting platforms.
+  - Extracts EXIF spatial coordinates and geotags, plotting an individual's physical locations on interactive map layers.
+* **Best For:** Personnel tracking, social media forensic geolocation, and travel pattern analysis.
+
+---
+
+### 8. [bellingcat/ShadowFinder](https://github.com/bellingcat/ShadowFinder) [![GitHub stars](https://img.shields.io/github/stars/bellingcat/ShadowFinder?style=social&color=white)](https://github.com/bellingcat/ShadowFinder/stargazers)
+* **Stack:** Python / JavaScript / SunCalc | **License:** MIT
+* **Capabilities:** 
+  - Bellingcat investigative utility designed to locate where an image could have been taken based on cast shadow lengths and angles.
+  - Matches calculated solar elevation and azimuth angles against astronomical models to confirm or refute claimed timestamps and locations.
+* **Best For:** Investigative journalists and chronolocation experts verifying photo authenticity and geographic location.
+
+---
+
+### 9. [cogeotiff/rio-tiler](https://github.com/cogeotiff/rio-tiler) [![GitHub stars](https://img.shields.io/github/stars/cogeotiff/rio-tiler?style=social&color=white)](https://github.com/cogeotiff/rio-tiler/stargazers)
+* **Stack:** Python / Rasterio / NumPy | **License:** BSD-3-Clause
+* **Capabilities:** 
+  - Dynamic tile-generation engine for Cloud Optimized GeoTIFFs (COG), STAC assets, and satellite imagery.
+  - Slices, warps, and mosaic satellite rasters on-the-fly without downloading multi-gigabyte scenes.
+* **Best For:** Software engineers building cloud-native satellite imagery viewers and high-throughput tile servers.
+
+---
+
+### 10. [The-Osint-Toolbox/Geolocation-OSINT](https://github.com/The-Osint-Toolbox/Geolocation-OSINT) [![GitHub stars](https://img.shields.io/github/stars/The-Osint-Toolbox/Geolocation-OSINT?style=social&color=white)](https://github.com/The-Osint-Toolbox/Geolocation-OSINT/stargazers)
+* **Stack:** Markdown / Resource Catalog | **License:** Unlicense
+* **Capabilities:** 
+  - Comprehensive methodology cheat-sheet and index for image geolocation, street-level identification, and visual clues.
+  - Curates architectural guides, license plate databases, signage registries, and satellite comparison platforms.
+* **Best For:** Analysts sharpening image geolocation, reverse search techniques, and visual environment identification.
+
+---
+
+### 11. [neonpangolin/geospatial-intelligence-library](https://github.com/neonpangolin/geospatial-intelligence-library) [![GitHub stars](https://img.shields.io/github/stars/neonpangolin/geospatial-intelligence-library?style=social&color=white)](https://github.com/neonpangolin/geospatial-intelligence-library/stargazers)
+* **Stack:** Python / Jupyter | **License:** MIT
+* **Capabilities:** 
+  - Practical toolbelt for digital investigations, satellite data handling, and investigative GIS operations.
+  - Includes scripts for processing optical satellite passes, overlaying border coordinates, and identifying terrain changes.
+* **Best For:** Digital investigators and investigative journalists seeking quick, lightweight geospatial processing scripts.
+
+---
+
+### 12. [OsintMeThat/azimut](https://github.com/OsintMeThat/azimut) [![GitHub stars](https://img.shields.io/github/stars/OsintMeThat/azimut?style=social&color=white)](https://github.com/OsintMeThat/azimut/stargazers)
+* **Stack:** Python / Svelte / SQLite | **License:** Open Source
+* **Capabilities:** 
+  - Local-first GeoOSINT workspace preserving digital evidence in an isolated case directory.
+  - **3D Horizon Matching:** Stand at any geographic coordinate and render 3D terrain ridges up to 150 km away to align horizons against photographs.
+  - **Automated Skyline Finder:** Draw skyline contours and search up to 10,000 km² digital elevation models to pinpoint candidate camera spots.
+* **Best For:** Investigators verifying mountain, skyline, and rural photos in privacy-critical environments.
+
+---
+
+### 13. [Xetnus/osm-finder](https://github.com/Xetnus/osm-finder) [![GitHub stars](https://img.shields.io/github/stars/Xetnus/osm-finder?style=social&color=white)](https://github.com/Xetnus/osm-finder/stargazers)
+* **Stack:** Python / Overpass API | **License:** MIT
+* **Capabilities:** 
+  - Developed for Bellingcat's Hackathon to solve visual geolocation via spatial feature intersection queries.
+  - Finds geographic coordinates where specific combinations of OpenStreetMap features intersect (e.g., "church within 100m of railway and river").
+* **Best For:** Pinpointing locations when a photo features distinct landmarks or linear infrastructure.
+
+---
+
+### 14. [Xpirix/qgis-osint](https://github.com/Xpirix/qgis-osint) [![GitHub stars](https://img.shields.io/github/stars/Xpirix/qgis-osint?style=social&color=white)](https://github.com/Xpirix/qgis-osint/stargazers)
+* **Stack:** Python / QGIS Plugin | **License:** GPLv3
+* **Capabilities:** 
+  - Real-time geospatial intelligence plugin built directly inside the QGIS environment.
+  - Streams ADS-B aircraft positions, maritime vessel feeds, active conflict incident data, and infrastructure layers directly onto QGIS canvases.
+* **Best For:** GIS analysts who want a live operational common operating picture (COP) inside desktop GIS.
+
+---
+
+### 15. [Syntax-Error-1337/radar](https://github.com/Syntax-Error-1337/radar) [![GitHub stars](https://img.shields.io/github/stars/Syntax-Error-1337/radar?style=social&color=white)](https://github.com/Syntax-Error-1337/radar/stargazers)
+* **Stack:** JavaScript / Leaflet / Node.js | **License:** MIT
+* **Capabilities:** 
+  - Real-time geospatial intelligence platform aggregating flight telemetry, maritime GPS, cyber threats, and GPS jamming interference maps.
+  - Interactive multi-layer mapping console for live global threat monitoring.
+* **Best For:** Real-time situational awareness and electronic warfare / GPS spoofing monitoring.
+
+---
+
+### 16. [unbihexium-oss/unbihexium](https://github.com/unbihexium-oss/unbihexium) [![GitHub stars](https://img.shields.io/github/stars/unbihexium-oss/unbihexium?style=social&color=white)](https://github.com/unbihexium-oss/unbihexium/stargazers)
+* **Stack:** Python / ONNX / PyTorch | **License:** MPL-2.0
+* **Capabilities:** 
+  - Computer vision and machine learning library for Earth observation and remote sensing.
+  - Includes a curated model zoo with ONNX runtime export for building automated satellite object detection pipelines.
+* **Best For:** Machine learning engineers developing automated building, road, and ship detectors from satellite feeds.
+
+---
+
+### 17. [xang1234/neptune](https://github.com/xang1234/neptune) [![GitHub stars](https://img.shields.io/github/stars/xang1234/neptune?style=social&color=white)](https://github.com/xang1234/neptune/stargazers)
+* **Stack:** Python / Polars / DuckDB | **License:** Open Source
+* **Capabilities:** 
+  - Open-source maritime tracking engine aggregating open AIS data (NOAA, Danish Maritime, Global Fishing Watch).
+  - Identifies loitering behavior, EEZ border crossings, dark fleet transshipment encounters, and port calls using lightning-fast DuckDB spatial queries.
+* **Best For:** Maritime OSINT analysts and supply chain sleuths monitoring global shipping corridors.
+
+---
+
+## 📊 Feature Comparison Matrix
+
+| Tool / Platform | License | Core Focus | Geolocation | Satellite Optical / SAR | Maritime AIS | RF / Electronic Intel | Self-Hosted |
+|---|---|---|---|---|---|---|---|
+| **Maxar Technologies** | Commercial | High-Res Satellite EO | ✅ Advanced | ✅ 30cm Optical/DEM | ❌ | ❌ | ❌ |
+| **Dataminr** | Commercial | AI Event Intelligence | ✅ Geotagged | ❌ | ❌ | ❌ | ❌ |
+| **Recorded Future** | Commercial | Threat & SecOps Intel | ✅ Contextual | ❌ | ❌ | ❌ | ❌ |
+| **HawkEye 360** | Commercial | Radio Frequency GEOINT | ✅ Precision RF | ❌ | ✅ Maritime RF | ✅ Satellite SIGINT | ❌ |
+| **Planet Labs** | Commercial | Daily Earth Observation | ✅ High Cadence | ✅ 3m/50cm Optical | ❌ | ❌ | ❌ |
+| **Janes** | Commercial | Military Defense OSINT | ✅ Conflict Zones | ❌ | ❌ | ❌ | ❌ |
+| **Spire Global** | Commercial | Maritime & Atmospheric | ✅ Vessel/Flight | ❌ | ✅ Global AIS | ✅ GNSS Ro | ❌ |
+| **BlackSky** | Commercial | Rapid Revisit AI Imagery | ✅ Near Real-Time | ✅ 35cm-1m Optical | ❌ | ❌ | ❌ |
+| **SpiderFoot** | MIT | Attack Surface Recon | ✅ IP/Geo | ❌ | ❌ | ❌ | ✅ |
+| **QGIS** | GPLv2 | Full-Featured Desktop GIS | ✅ Native GIS | ✅ Via Plugins | ✅ Via Plugins | ❌ | ✅ |
+| **Osiris** | MIT | 3D Situational Dashboard | ✅ WebGL Globe | ✅ Hotspots / MODIS | ✅ Marine Traffic | ❌ | ✅ |
+| **geemap** | MIT | Earth Engine Big Data | ✅ Multi-Spectral | ✅ Landsat/Sentinel | ❌ | ❌ | ✅ |
+| **OpenOSINT** | Apache-2.0 | Conversational OSINT Agent | ✅ GDELT News/IP | ❌ | ❌ | ❌ | ✅ |
+| **ShadowFinder** | MIT | Chronolocation & Shadows | ✅ Solar Geometry | ❌ | ❌ | ❌ | ✅ |
+| **Azimut** | Open Source | Horizon & Skyline Match | ✅ 3D Elevation | ❌ | ❌ | ❌ | ✅ |
+| **osm-finder** | MIT | Landmark Intersection | ✅ OSM Overpass | ❌ | ❌ | ❌ | ✅ |
+| **Neptune AIS** | Open Source | Vessel Analytics & Tracking | ❌ | ❌ | ✅ Multi-Feed AIS | ❌ | ✅ |
+
+---
+
+## 🔍 SEO Search Keywords & Query Taxonomy
+
+To help intelligence teams, defense practitioners, and developers discover relevant tooling via search engines and developer catalogs, this repository indexes the following taxonomy:
+
+- **Primary GEOINT Keywords:** `Geospatial Intelligence`, `GEOINT software`, `Earth Observation platforms`, `satellite imagery analysis`, `commercial satellite tasking`, `SAR satellite analytics`, `Synthetic Aperture Radar OSINT`.
+- **Geolocation & Chronolocation:** `photo geolocation tools`, `skyline horizon matching`, `shadow chronolocation analysis`, `OpenStreetMap feature intersection`, `EXIF spatial extractor`.
+- **Maritime & Aviation Reconnaissance:** `AIS vessel tracking open source`, `maritime intelligence dashboard`, `dark fleet detection`, `ADS-B flight tracking`, `RF signal geolocation satellite`.
+- **OSINT Dashboards & Toolkits:** `situational awareness 3D globe`, `MapLibre WebGL OSINT dashboard`, `Model Context Protocol OSINT agent`, `open source threat intelligence`, `SpiderFoot digital footprinting`.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source OSINT or Geospatial Intelligence tool that should be listed here, please open a pull request with:
+Contributions are warmly welcomed! To suggest a new open-source repository or update verified commercial SaaS capabilities:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
-
-**Note on the open-source ecosystem:** The open-source landscape for **OSINT and geospatial intelligence** is **fragmented across distinct capabilities** rather than unified platforms. **Azimut** is the most purpose-built open-source tool for **geolocation investigations**, with horizon matching, skyline finding, and proof composition running entirely locally . **TerraScout AI** and **Osiris** offer the broadest multi-source OSINT dashboards, with TerraScout emphasizing AI satellite segmentation and Osiris emphasizing GPU-rendered globes and network reconnaissance . For **maritime intelligence**, **Neptune AIS** provides programmatic multi-source AIS fusion with event detection . **OpenOSINT** fills the natural-language agent niche with 21 passive reconnaissance tools and MCP integration . **Unbihexium** and **SIPT** serve developers building custom geospatial ML pipelines and satellite processing workflows. No single open-source project fully replicates the commercial satellite constellations of Maxar or Planet, but these tools cover the core geolocation, imagery analysis, and multi-source intelligence workflows for self-hosted deployments.
+1. 🍴 Fork the repository.
+2. 🌿 Create a descriptive branch: `git checkout -b feat/add-new-tool`.
+3. 📝 Follow the existing formatting (include project license, tech stack, key highlights, and official stargazers badge).
+4. 🚀 Open a Pull Request with a clear summary of why the tool benefits the GEOINT/OSINT community.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This repository and curated list are released under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0) Public Domain Dedication. All referenced third-party trademarks, logos, and software repositories belong to their respective owners.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<p align="center">
+  ⭐ <b>Found this repository valuable for your investigations? Give it a Star!</b> ⭐
+</p>
