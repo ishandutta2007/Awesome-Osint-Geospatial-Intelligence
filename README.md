@@ -28,6 +28,8 @@ Whether you are an OSINT investigator, defense analyst, GIS engineer, or threat 
 - [📊 Feature Comparison Matrix](#-feature-comparison-matrix)
 - [🔍 SEO Search Keywords & Query Taxonomy](#-seo-search-keywords--query-taxonomy)
 - [🤝 Contributing](#-contributing)
+- [💖 Support & Community](#-support--community)
+- [📈 Star History](#-star-history)
 - [📄 License](#-license)
 
 ---
@@ -271,6 +273,24 @@ Contributions are warmly welcomed! To suggest a new open-source repository or up
 2. 🌿 Create a descriptive branch: `git checkout -b feat/add-new-tool`.
 3. 📝 Follow the existing formatting (include project license, tech stack, key highlights, and official stargazers badge).
 4. 🚀 Open a Pull Request with a clear summary of why the tool benefits the GEOINT/OSINT community.
+
+---
+
+## 💖 Support & Community
+
+Thank you for visiting and using this resource! If you find this project valuable for your research, investigations, or workflows, please consider supporting its ongoing development:
+
+- ⭐ **Star** this repository on GitHub to boost visibility.
+- 🍴 **Fork** and contribute tools, corrections, or enhancements.
+- 📢 **Share** this collection with fellow OSINT investigators, analysts, and communities.
+- ☕ **Buy Me a Coffee / Sponsor**: Support direct maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Osint-Geospatial-Intelligence&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Osint-Geospatial-Intelligence&type=date&legend=top-left)
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Osint-Geospatial-Intelligence&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Osint-Geospatial-Intelligence&type=date&legend=top-left)
 
 ---
 
