@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome" /></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Osint-Geospatial-Intelligence/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Osint-Geospatial-Intelligence?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Osint-Geospatial-Intelligence/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Osint-Geospatial-Intelligence?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Osint-Geospatial-Intelligence/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Osint-Geospatial-Intelligence?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Osint-Geospatial-Intelligence/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg?style=flat-square" alt="License: CC0-1.0" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -71,7 +71,7 @@ The software repos below are **ranked in descending order by GitHub stargazers**
 
 ---
 
-### 1. [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) [![GitHub stars](https://img.shields.io/github/stars/smicallef/spiderfoot?style=social&color=white)](https://github.com/smicallef/spiderfoot/stargazers)
+### 1. [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) [![GitHub_Stars](https://img.shields.io/github/stars/smicallef/spiderfoot?style=social&color=white)](https://github.com/smicallef/spiderfoot/stargazers)
 * **Stack:** Python / Flask / SQLite | **License:** MIT
 * **Capabilities:** 
   - Automates OSINT for threat intelligence, digital reconnaissance, and infrastructure mapping.
@@ -81,7 +81,7 @@ The software repos below are **ranked in descending order by GitHub stargazers**
 
 ---
 
-### 2. [qgis/QGIS](https://github.com/qgis/QGIS) [![GitHub stars](https://img.shields.io/github/stars/qgis/QGIS?style=social&color=white)](https://github.com/qgis/QGIS/stargazers)
+### 2. [qgis/QGIS](https://github.com/qgis/QGIS) [![GitHub_Stars](https://img.shields.io/github/stars/qgis/QGIS?style=social&color=white)](https://github.com/qgis/QGIS/stargazers)
 * **Stack:** C++ / Python / Qt | **License:** GNU GPLv2
 * **Capabilities:** 
   - The gold-standard open-source Geographic Information System (GIS) for professional spatial data management.
@@ -91,7 +91,7 @@ The software repos below are **ranked in descending order by GitHub stargazers**
 
 ---
 
-### 3. [simplifaisoul/osiris](https://github.com/simplifaisoul/osiris) [![GitHub stars](https://img.shields.io/github/stars/simplifaisoul/osiris?style=social&color=white)](https://github.com/simplifaisoul/osiris/stargazers)
+### 3. [simplifaisoul/osiris](https://github.com/simplifaisoul/osiris) [![GitHub_Stars](https://img.shields.io/github/stars/simplifaisoul/osiris?style=social&color=white)](https://github.com/simplifaisoul/osiris/stargazers)
 * **Stack:** Next.js / TypeScript / MapLibre GL / WebGL | **License:** MIT
 * **Capabilities:** 
   - Self-hosted, real-time situational awareness dashboard rendering ~19,000+ spatial entities smoothly at 60 FPS using GPU WebGL.
@@ -101,7 +101,7 @@ The software repos below are **ranked in descending order by GitHub stargazers**
 
 ---
 
-### 4. [sacridini/Awesome-Geospatial](https://github.com/sacridini/Awesome-Geospatial) [![GitHub stars](https://img.shields.io/github/stars/sacridini/Awesome-Geospatial?style=social&color=white)](https://github.com/sacridini/Awesome-Geospatial/stargazers)
+### 4. [sacridini/Awesome-Geospatial](https://github.com/sacridini/Awesome-Geospatial) [![GitHub_Stars](https://img.shields.io/github/stars/sacridini/Awesome-Geospatial?style=social&color=white)](https://github.com/sacridini/Awesome-Geospatial/stargazers)
 * **Stack:** Markdown / Community Catalog | **License:** CC0-1.0
 * **Capabilities:** 
   - The definitive global repository indexing open-source geospatial databases, LiDAR toolkits, radar imagery, and GIS utilities.
@@ -110,7 +110,7 @@ The software repos below are **ranked in descending order by GitHub stargazers**
 
 ---
 
-### 5. [gee-community/geemap](https://github.com/gee-community/geemap) [![GitHub stars](https://img.shields.io/github/stars/gee-community/geemap?style=social&color=white)](https://github.com/gee-community/geemap/stargazers)
+### 5. [gee-community/geemap](https://github.com/gee-community/geemap) [![GitHub_Stars](https://img.shields.io/github/stars/gee-community/geemap?style=social&color=white)](https://github.com/gee-community/geemap/stargazers)
 * **Stack:** Python / Jupyter / ipyleaflet | **License:** MIT
 * **Capabilities:** 
   - Python package for interactive planetary mapping with Google Earth Engine (GEE).
@@ -120,7 +120,7 @@ The software repos below are **ranked in descending order by GitHub stargazers**
 
 ---
 
-### 6. [OpenOSINT/OpenOSINT](https://github.com/OpenOSINT/OpenOSINT) [![GitHub stars](https://img.shields.io/github/stars/OpenOSINT/OpenOSINT?style=social&color=white)](https://github.com/OpenOSINT/OpenOSINT/stargazers)
+### 6. [OpenOSINT/OpenOSINT](https://github.com/OpenOSINT/OpenOSINT) [![GitHub_Stars](https://img.shields.io/github/stars/OpenOSINT/OpenOSINT?style=social&color=white)](https://github.com/OpenOSINT/OpenOSINT/stargazers)
 * **Stack:** Python / MCP / CLI | **License:** Apache-2.0
 * **Capabilities:** 
   - Conversational AI agent for digital investigations, featuring 21 public-source passive reconnaissance tools.
@@ -130,7 +130,7 @@ The software repos below are **ranked in descending order by GitHub stargazers**
 
 ---
 
-### 7. [ilektrojohn/creepy](https://github.com/ilektrojohn/creepy) [![GitHub stars](https://img.shields.io/github/stars/ilektrojohn/creepy?style=social&color=white)](https://github.com/ilektrojohn/creepy/stargazers)
+### 7. [ilektrojohn/creepy](https://github.com/ilektrojohn/creepy) [![GitHub_Stars](https://img.shields.io/github/stars/ilektrojohn/creepy?style=social&color=white)](https://github.com/ilektrojohn/creepy/stargazers)
 * **Stack:** Python / PyQt | **License:** GPLv3
 * **Capabilities:** 
   - Dedicated geolocation OSINT tool collecting geolocation data from social networking platforms and photo-hosting platforms.
@@ -139,7 +139,7 @@ The software repos below are **ranked in descending order by GitHub stargazers**
 
 ---
 
-### 8. [bellingcat/ShadowFinder](https://github.com/bellingcat/ShadowFinder) [![GitHub stars](https://img.shields.io/github/stars/bellingcat/ShadowFinder?style=social&color=white)](https://github.com/bellingcat/ShadowFinder/stargazers)
+### 8. [bellingcat/ShadowFinder](https://github.com/bellingcat/ShadowFinder) [![GitHub_Stars](https://img.shields.io/github/stars/bellingcat/ShadowFinder?style=social&color=white)](https://github.com/bellingcat/ShadowFinder/stargazers)
 * **Stack:** Python / JavaScript / SunCalc | **License:** MIT
 * **Capabilities:** 
   - Bellingcat investigative utility designed to locate where an image could have been taken based on cast shadow lengths and angles.
@@ -148,7 +148,7 @@ The software repos below are **ranked in descending order by GitHub stargazers**
 
 ---
 
-### 9. [cogeotiff/rio-tiler](https://github.com/cogeotiff/rio-tiler) [![GitHub stars](https://img.shields.io/github/stars/cogeotiff/rio-tiler?style=social&color=white)](https://github.com/cogeotiff/rio-tiler/stargazers)
+### 9. [cogeotiff/rio-tiler](https://github.com/cogeotiff/rio-tiler) [![GitHub_Stars](https://img.shields.io/github/stars/cogeotiff/rio-tiler?style=social&color=white)](https://github.com/cogeotiff/rio-tiler/stargazers)
 * **Stack:** Python / Rasterio / NumPy | **License:** BSD-3-Clause
 * **Capabilities:** 
   - Dynamic tile-generation engine for Cloud Optimized GeoTIFFs (COG), STAC assets, and satellite imagery.
@@ -157,7 +157,7 @@ The software repos below are **ranked in descending order by GitHub stargazers**
 
 ---
 
-### 10. [The-Osint-Toolbox/Geolocation-OSINT](https://github.com/The-Osint-Toolbox/Geolocation-OSINT) [![GitHub stars](https://img.shields.io/github/stars/The-Osint-Toolbox/Geolocation-OSINT?style=social&color=white)](https://github.com/The-Osint-Toolbox/Geolocation-OSINT/stargazers)
+### 10. [The-Osint-Toolbox/Geolocation-OSINT](https://github.com/The-Osint-Toolbox/Geolocation-OSINT) [![GitHub_Stars](https://img.shields.io/github/stars/The-Osint-Toolbox/Geolocation-OSINT?style=social&color=white)](https://github.com/The-Osint-Toolbox/Geolocation-OSINT/stargazers)
 * **Stack:** Markdown / Resource Catalog | **License:** Unlicense
 * **Capabilities:** 
   - Comprehensive methodology cheat-sheet and index for image geolocation, street-level identification, and visual clues.
@@ -166,7 +166,7 @@ The software repos below are **ranked in descending order by GitHub stargazers**
 
 ---
 
-### 11. [neonpangolin/geospatial-intelligence-library](https://github.com/neonpangolin/geospatial-intelligence-library) [![GitHub stars](https://img.shields.io/github/stars/neonpangolin/geospatial-intelligence-library?style=social&color=white)](https://github.com/neonpangolin/geospatial-intelligence-library/stargazers)
+### 11. [neonpangolin/geospatial-intelligence-library](https://github.com/neonpangolin/geospatial-intelligence-library) [![GitHub_Stars](https://img.shields.io/github/stars/neonpangolin/geospatial-intelligence-library?style=social&color=white)](https://github.com/neonpangolin/geospatial-intelligence-library/stargazers)
 * **Stack:** Python / Jupyter | **License:** MIT
 * **Capabilities:** 
   - Practical toolbelt for digital investigations, satellite data handling, and investigative GIS operations.
@@ -175,7 +175,7 @@ The software repos below are **ranked in descending order by GitHub stargazers**
 
 ---
 
-### 12. [OsintMeThat/azimut](https://github.com/OsintMeThat/azimut) [![GitHub stars](https://img.shields.io/github/stars/OsintMeThat/azimut?style=social&color=white)](https://github.com/OsintMeThat/azimut/stargazers)
+### 12. [OsintMeThat/azimut](https://github.com/OsintMeThat/azimut) [![GitHub_Stars](https://img.shields.io/github/stars/OsintMeThat/azimut?style=social&color=white)](https://github.com/OsintMeThat/azimut/stargazers)
 * **Stack:** Python / Svelte / SQLite | **License:** Open Source
 * **Capabilities:** 
   - Local-first GeoOSINT workspace preserving digital evidence in an isolated case directory.
@@ -185,7 +185,7 @@ The software repos below are **ranked in descending order by GitHub stargazers**
 
 ---
 
-### 13. [Xetnus/osm-finder](https://github.com/Xetnus/osm-finder) [![GitHub stars](https://img.shields.io/github/stars/Xetnus/osm-finder?style=social&color=white)](https://github.com/Xetnus/osm-finder/stargazers)
+### 13. [Xetnus/osm-finder](https://github.com/Xetnus/osm-finder) [![GitHub_Stars](https://img.shields.io/github/stars/Xetnus/osm-finder?style=social&color=white)](https://github.com/Xetnus/osm-finder/stargazers)
 * **Stack:** Python / Overpass API | **License:** MIT
 * **Capabilities:** 
   - Developed for Bellingcat's Hackathon to solve visual geolocation via spatial feature intersection queries.
@@ -194,7 +194,7 @@ The software repos below are **ranked in descending order by GitHub stargazers**
 
 ---
 
-### 14. [Xpirix/qgis-osint](https://github.com/Xpirix/qgis-osint) [![GitHub stars](https://img.shields.io/github/stars/Xpirix/qgis-osint?style=social&color=white)](https://github.com/Xpirix/qgis-osint/stargazers)
+### 14. [Xpirix/qgis-osint](https://github.com/Xpirix/qgis-osint) [![GitHub_Stars](https://img.shields.io/github/stars/Xpirix/qgis-osint?style=social&color=white)](https://github.com/Xpirix/qgis-osint/stargazers)
 * **Stack:** Python / QGIS Plugin | **License:** GPLv3
 * **Capabilities:** 
   - Real-time geospatial intelligence plugin built directly inside the QGIS environment.
@@ -203,7 +203,7 @@ The software repos below are **ranked in descending order by GitHub stargazers**
 
 ---
 
-### 15. [Syntax-Error-1337/radar](https://github.com/Syntax-Error-1337/radar) [![GitHub stars](https://img.shields.io/github/stars/Syntax-Error-1337/radar?style=social&color=white)](https://github.com/Syntax-Error-1337/radar/stargazers)
+### 15. [Syntax-Error-1337/radar](https://github.com/Syntax-Error-1337/radar) [![GitHub_Stars](https://img.shields.io/github/stars/Syntax-Error-1337/radar?style=social&color=white)](https://github.com/Syntax-Error-1337/radar/stargazers)
 * **Stack:** JavaScript / Leaflet / Node.js | **License:** MIT
 * **Capabilities:** 
   - Real-time geospatial intelligence platform aggregating flight telemetry, maritime GPS, cyber threats, and GPS jamming interference maps.
@@ -212,7 +212,7 @@ The software repos below are **ranked in descending order by GitHub stargazers**
 
 ---
 
-### 16. [unbihexium-oss/unbihexium](https://github.com/unbihexium-oss/unbihexium) [![GitHub stars](https://img.shields.io/github/stars/unbihexium-oss/unbihexium?style=social&color=white)](https://github.com/unbihexium-oss/unbihexium/stargazers)
+### 16. [unbihexium-oss/unbihexium](https://github.com/unbihexium-oss/unbihexium) [![GitHub_Stars](https://img.shields.io/github/stars/unbihexium-oss/unbihexium?style=social&color=white)](https://github.com/unbihexium-oss/unbihexium/stargazers)
 * **Stack:** Python / ONNX / PyTorch | **License:** MPL-2.0
 * **Capabilities:** 
   - Computer vision and machine learning library for Earth observation and remote sensing.
@@ -221,7 +221,7 @@ The software repos below are **ranked in descending order by GitHub stargazers**
 
 ---
 
-### 17. [xang1234/neptune](https://github.com/xang1234/neptune) [![GitHub stars](https://img.shields.io/github/stars/xang1234/neptune?style=social&color=white)](https://github.com/xang1234/neptune/stargazers)
+### 17. [xang1234/neptune](https://github.com/xang1234/neptune) [![GitHub_Stars](https://img.shields.io/github/stars/xang1234/neptune?style=social&color=white)](https://github.com/xang1234/neptune/stargazers)
 * **Stack:** Python / Polars / DuckDB | **License:** Open Source
 * **Capabilities:** 
   - Open-source maritime tracking engine aggregating open AIS data (NOAA, Danish Maritime, Global Fishing Watch).
